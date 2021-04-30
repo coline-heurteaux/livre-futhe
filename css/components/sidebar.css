@@ -1,0 +1,52 @@
+.sidebar {
+  position: fixed;
+  width: 200Px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 30px;
+  background: white;
+  box-shadow: 20px 0px 20px rgba(0,0,0,0.1)
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.sidebar img {
+	width: 100px;
+	margin-top:30px;
+	margin-bottom: 50px;
+	border: 1px solid #086f7c; 
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #086f7c;
+}
+
+.sidebar a:hover {
+	color:#575656;
+}
+
+.sidebar li {
+	margin-bottom: 20px;
+}
+
+.reseaux-sociaux img{
+	width: 30px;
+	position: center;
+	border: none;
+	margin-top: 30px;
+}
+
+.interieur img {
+	width: 200px;
+	position: center;
+	border: none;
+	margin-top: -30px;
+	padding :0px;
+}

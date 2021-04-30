@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap");
+
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/sidebar.css");
+@import url("components/footer.css");
+
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: #086f7c;
+}
+
+h3{
+	text-align: center;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	color: #575656;
+}
+
+.promesse {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.promesse img {
+	width: 400px;
+	margin-right:50px;
+	margin-top: 40px;
+	border-radius: 4px;
+	box-shadow: -30px -30px 0px #EFE6DD;
+	margin-bottom:40px;
+}
+
+.texte-promesse {
+	margin-top: 40px;
+}
+
+.carte {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.section-2 h2 {
+	margin-top:30px;
+}
+
+.section-1 {
+	background-color: #EFE6DD;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+.patisserie img {
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.carte li {
+	margin-bottom: 15px;
+} 
+
+.section-3 h2 {
+	padding-bottom: 20px;
+}
+
+.section-3 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.section-4 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.descriptif {
+	border: 3px solid #EFE6DD; 
+	border-radius: 4px;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.partenaire {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+#entreprise img {
+	padding-top: 30px;
+	width: 150px;	
+}
+
+.page{
+  margin-left: 200px;
+}
+
+.section-5{
+	margin-left: 60px;
+}
+
+
+
+
+
+
+

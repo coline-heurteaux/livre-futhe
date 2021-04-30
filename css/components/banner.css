@@ -1,0 +1,20 @@
+.banner {
+	text-align: left;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("../../images/the.jpg");
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+.banner p {
+	font-size: 20px;
+	color: white;
+}
+
+.banner h1 {
+	font-size: 50px;
+	color: white;
+}

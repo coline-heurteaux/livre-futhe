@@ -1,0 +1,28 @@
+.button {
+	background-color: transparent;
+	border: 0.125rem solid #fff;
+	border-radius: 0.5rem;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.button:hover {
+	background-color: #575656;
+	color: white;
+}
+
+.button-blue {
+	background-color: #086f7c;
+	color: white;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.button-blue:hover {
+	background-color: transparent;
+	border: 0.125rem solid #086f7c;
+	border-radius: 0.5rem;
+	color: #086f7c;
+}
